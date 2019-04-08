@@ -1,0 +1,84 @@
+.container{
+  width: 410px;
+  border: solid 2px black;
+  margin: 0 auto;
+  padding: 15px;
+  margin-top: 15px
+}
+
+.boxFullTime, .boxFullVolume{
+  width: 400px;
+  height: 30px;
+  border: solid 2px black;
+}
+
+.boxActualTime, .boxActualVolume{
+  height: 30px;
+  background: blue;
+}
+
+.displayNone{
+  display: none;
+}
+
+.boxOneSong > div{
+  width: 382px;
+  height: 60px;
+  border: solid 2px black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  margin: 10px 0;
+  padding: 0 10px 0 10px;
+}
+
+.boxOneSong > div:hover{
+  border: solid 2px red;
+  color: red;
+}
+
+img{
+  width: 40px;
+  height: 40px;
+  margin-right: 11px;
+  border-bottom: solid 2px white;
+  border-top: solid 2px white;
+  cursor: pointer;
+}
+
+img:hover{
+  border-bottom: solid 2px red;
+}
+
+.play{
+  border: none;
+  width: 60px;
+  height: 60px;
+}
+
+input{
+  height: 30px;
+  width: 395px;
+  padding-left: 7px;
+  border: solid 2px black;
+}
+
+.borderRed{
+  border-top: solid 2px red;
+}
+
+.playingSong{
+  background-color: blue;
+  color: white;
+}
+
+.playingSong:hover{
+  color: white !important;
+}
+
+.like {
+  color: red;
+  text-decoration: underline;
+}
